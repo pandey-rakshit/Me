@@ -12,9 +12,13 @@ body {
     background-color:black
 }
 
-div > img{
+div > a > img{
     border-radius: 50%;
     margin-bottom: 12px;
+    
+}
+a > img:hover{
+    box-shadow: 0 0 2px 1px rgba(137, 180, 221, 0.651);
 }
 
 h1{
