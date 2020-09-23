@@ -49,7 +49,7 @@ p.navbar-text{
 }
  
 
-@media only screen and (min-height: 700px) {
+@media only screen and (min-height: 720px) {
     nav.navbar.navbar-expand-xs.navbar-dark{
         position: fixed;
         left: 0;
