@@ -58,3 +58,54 @@ p.navbar-text{
         z-index: 1030;
     }
   }
+
+
+
+
+  
+
+@keyframes spin {
+    0% {
+      transform: translate(0, 0) scale(1) rotateY(0deg);
+    }
+    25% {
+      transform: translate(-0.5rem, -0.5rem) scale(1) rotateY(360deg);
+    }
+    50% {
+      transform: translate(-1rem, -1rem) scale(1) rotateY(0deg);
+    }
+    75% {
+      transform: translate(-0.5rem, -0.5rem) scale(1) rotateY(360deg);
+    }
+    100% {
+      transform: translate(0 , 0) scale(1) rotateY(0deg);
+    }
+  }
+  
+  .spin-animation {
+    animation: spin 2s linear forwards;
+  }
+  
+  
+  
+  @keyframes move {
+    0% {
+      transform: translate(0, 0) scale(1) rotateY(0deg);
+    }
+    25% {
+      transform: translate(1.5rem, 0) scale(1) rotateY(270deg);
+    }
+    50% {
+      transform: translate(3rem, 0) scale(1) rotateY(0deg);
+    }
+    75% {
+      transform: translate(-2.5rem, 0) scale(1) rotateY(0deg);
+    }
+    100% {
+      transform: translate(0 , 0) scale(1) rotateY(0deg);
+    }
+  }
+  
+  .move-animation {
+    animation: move 2s linear forwards;
+  }
