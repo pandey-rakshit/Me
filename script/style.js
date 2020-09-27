@@ -14,3 +14,5 @@ function reRun() {
     },300)
   }
   
+reRun();
+move();
