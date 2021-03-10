@@ -1,3 +1,8 @@
+var preloader = document.getElementById('loading');
+function loader(){
+  preloader.style.display ='none';
+}
+
 function reRun() {
     document.querySelector('.fa-dragon').classList.remove('spin-animation')
     document.querySelector('.fa-dragon').classList.remove('move-animation')
